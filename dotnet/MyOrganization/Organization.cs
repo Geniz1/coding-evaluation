@@ -46,6 +46,7 @@ namespace MyOrganization
             if (title == root.GetTitle())
             {
                 root.SetEmployee(new Employee(id, person));
+                return;
             }
             foreach (var reportee in reporteees)
             {
